@@ -46,6 +46,10 @@ const App = () => {
       </Routes>
 
       <Toaster />
+
+      <div className="fixed bottom-4 left-4 text-xs text-gray-500">
+        Toprak tarafından yapıldı
+      </div>
     </div>
   );
 };
